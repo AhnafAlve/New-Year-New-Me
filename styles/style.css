@@ -44,3 +44,45 @@
     color: #ffff;
     background-color: #F15B22;
 }
+
+/* failur section css */
+
+.half-width{
+    width: 50%;
+}
+.failur{
+    display: flex;
+    align-items: center;
+}
+.failur .text-area{
+    margin-left: 90px;
+}
+.failur h2{
+    font-size: 40px;
+}
+.text-area p{
+    padding: 20px 0;
+}
+.text-area ol li {
+    list-style-image: url(../images/icons/tik.png);
+    padding: 6px;
+    margin-left: 20px;
+}
+
+/* My plans section css */
+
+.myplans{
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    justify-content: center;
+}
+.goal h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.plan{
+    padding: 50px 60px;
+}
