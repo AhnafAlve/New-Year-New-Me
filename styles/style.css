@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -81,7 +79,6 @@
 }
 
 /* My plans section css */
-
 .myplans {
     display: flex;
     text-align: center;
@@ -160,7 +157,6 @@
 .contacts {
     display: flex;
 }
-
 
 /* extra section */
 .feedback {
