@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -157,4 +159,26 @@
 
 .contacts {
     display: flex;
+}
+
+
+/* extra section */
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #c2c7cb;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+.feedback input {
+    padding: 15px 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.highlight {
+    color: #F15B22;
 }
