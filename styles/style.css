@@ -45,24 +45,33 @@
     background-color: #F15B22;
 }
 
+.btn-primary {
+    color: #F15B22;
+}
+
 /* failur section css */
 
-.half-width{
+.half-width {
     width: 50%;
 }
-.failur{
+
+.failur {
     display: flex;
     align-items: center;
 }
-.failur .text-area{
+
+.failur .text-area {
     margin-left: 90px;
 }
-.failur h2{
+
+.failur h2 {
     font-size: 40px;
 }
-.text-area p{
+
+.text-area p {
     padding: 20px 0;
 }
+
 .text-area ol li {
     list-style-image: url(../images/icons/tik.png);
     padding: 6px;
@@ -71,18 +80,81 @@
 
 /* My plans section css */
 
-.myplans{
+.myplans {
     display: flex;
     text-align: center;
     margin: 30px;
     justify-content: center;
 }
-.goal h2{
+
+.goal h2 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     margin: 20px 0;
 }
-.plan{
+
+.plan {
     padding: 50px 60px;
+}
+
+/* Mindset section css */
+.mindset {
+    height: 270px;
+    background-image: linear-gradient(to right, rgba(241, 91, 34, 100%), rgba(241, 91, 34, 0%)), url('../images/watch.png');
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.mindset h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/* contact section css */
+.contact {
+    display: flex;
+    height: 500px;
+    background-color: black;
+    color: #ffff;
+    margin-top: 130px;
+}
+
+.contact h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 16px 0;
+}
+
+.contact p {
+    margin: 18px 0;
+}
+
+.info-part {
+    width: 50%;
+}
+
+.contact-icons img {
+    padding-right: 10px;
+}
+
+.form-part {
+    width: 50%;
+    margin-left: 500px;
+}
+
+.form-part input {
+    padding: 15px 30px;
+    color: #ffff;
+    background-color: #000000;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 18px 0;
+}
+
+.contacts {
+    display: flex;
 }
